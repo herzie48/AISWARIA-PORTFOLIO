@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aiswaria Benny | AI & Data Science Student & Developer</title>
+  <meta name="description" content="Portfolio of Aiswaria Benny - B.Tech AI & Data Science student. Software developer in Python, Java, and web technologies.">
+  
+  <!-- Google Fonts: Syne (Chunky Display) & Plus Jakarta Sans (Clean Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- 1. LOADER SECTION (about 2s, skip on click/key, once per visit) -->
+  <div id="loader" class="loader-overlay" role="progressbar" aria-label="Loading portfolio" tabindex="0">
+    <div class="loader-name-container">
+      <h1 id="loader-name" class="loader-name">AISWARIA BENNY</h1>
+    </div>
+    <div class="loader-aurora-blend-a"></div>
+    <div class="loader-aurora-blend-b"></div>
+  </div>
+
+  <main id="main-content">
+    
+    <!-- 2. HERO SECTION -->
+    <section id="hero" class="hero-section" aria-label="Hero">
+      <div class="hero-bg-container">
+        <div class="hero-aurora-ambient-a"></div>
+        <div class="hero-aurora-ambient-b"></div>
+        <div class="hero-overlay"></div>
+      </div>
+      
+      <div class="hero-content">
+        <h1 class="hero-name-wrapper" id="hero-name-container" tabindex="0">
+          <span class="hero-name-text" id="hero-name-text">AISWARIA BENNY</span>
+          <span class="hero-name-glow" id="hero-name-glow" aria-hidden="true">AISWARIA BENNY</span>
+        </h1>
+        
+        <p class="hero-tagline" id="hero-tagline">
+          <!-- Populated from content.js -->
+        </p>
+        
+        <div class="hero-actions">
+          <a href="#projects" id="hero-cta-btn" class="btn btn-hero-glow">
+            <!-- Populated from content.js -->
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ABOUT SECTION -->
+    <section id="about" class="about-section" aria-label="About Me">
+      <!-- Soft blurred drifting aurora orbs -->
+      <div class="orb orb-green" aria-hidden="true"></div>
+      <div class="orb orb-pink" aria-hidden="true"></div>
+      <div class="orb orb-violet" aria-hidden="true"></div>
+
+      <div class="section-container">
+        <h2 id="about-title" class="outlined-heading">
+          <!-- Populated from content.js -->
+        </h2>
+        
+        <div class="about-card">
+          <p id="about-text" class="about-description">
+            <!-- Populated from content.js -->
+          </p>
+          
+          <div class="skills-container">
+            <h3 class="skills-label">Technical Skills</h3>
+            <ul id="skills-list" class="skills-tags-row">
+              <!-- Populated from content.js -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PROJECTS SECTION -->
+    <section id="projects" class="projects-section" aria-label="Projects">
+      <div class="section-container">
+        <h2 id="projects-title" class="outlined-heading">
+          <!-- Populated from content.js -->
+        </h2>
+        
+        <div id="projects-cards-container" class="projects-grid">
+          <!-- Stacked cards populated dynamically from content.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CONTACT SECTION (Light background transition, end of page) -->
+    <section id="contact" class="contact-section light-theme-section" aria-label="Contact">
+      <div class="contact-container">
+        <h2 id="contact-title" class="contact-heading">
+          <!-- Populated from content.js -->
+        </h2>
+        
+        <div class="contact-layout">
+          <!-- Left side: Giant Email element -->
+          <div class="contact-featured-col">
+            <span class="contact-label">Direct Email</span>
+            <a id="contact-email-link" href="#" class="featured-email-link">
+              <!-- Email from content.js -->
+            </a>
+          </div>
+
+          <!-- Right side: Offset form & links -->
+          <div class="contact-block-col">
+            <form id="contact-form" class="contact-form" action="#" method="GET">
+              <div class="form-group">
+                <label for="contact-name" class="visually-hidden">Your Name</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="contact-message" class="visually-hidden">Your Message</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Your Message" rows="4" required></textarea>
+              </div>
+              <button type="submit" id="contact-submit-btn" class="btn btn-contact-submit">
+                <!-- Send Message from content.js -->
+              </button>
+            </form>
+
+            <div class="contact-links-row">
+              <a id="contact-github" href="#" target="_blank" rel="noopener" class="social-btn">
+                GitHub
+              </a>
+              <a id="contact-linkedin" href="#" target="_blank" rel="noopener" class="social-btn">
+                LinkedIn
+              </a>
+              <a id="contact-resume" href="#" target="_blank" rel="noopener" class="social-btn resume-btn">
+                Download resume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Strip -->
+        <footer class="site-footer">
+          <div class="footer-left">
+            <span id="footer-name" class="footer-name">Aiswaria Benny</span>
+            <span id="footer-copyright" class="footer-copy">© 2026</span>
+          </div>
+          <div class="footer-right">
+            <a id="footer-github" href="#" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+            <a id="footer-linkedin" href="#" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+            <a id="footer-resume" href="#" target="_blank" rel="noopener" class="footer-link">Download resume</a>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Load content and script -->
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
